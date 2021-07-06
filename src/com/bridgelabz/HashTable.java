@@ -5,12 +5,8 @@ public class HashTable
 	public static void main(String[] args) 
 	{
         HashTableImpl<String, Integer> hash = new HashTableImpl();
-        String message = "“Paranoids are not\r\n"
-        		+ "paranoid because they are paranoid but\r\n"
-        		+ "because they keep putting themselves\r\n"
-        		+ "deliberately into paranoid avoidable\r\n"
-        		+ "situations”";
-
+        String message = "Paranoids are not paranoid because they are paranoid but " +
+                "because they keep putting themselves deliberately into paranoid avoidable situations";
         //String to String[] conversion.
         String[] messageArray = message.toLowerCase().split(" ");
 
